@@ -1,0 +1,22 @@
+//各ファイルは必ず登録済みの変数を最初に読み込みます
+//as *で読み込みファイル名を省略することができます
+@use "../global" as *;
+
+#top {
+    .wrappaer{
+        height: 500vh;
+    }
+    .sikaku {
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        background: hsl(205, 77%, 48%);
+        transform: translate(-50%, -50%);
+        transition: background-color 0.1s;
+    }
+
+
+
+}
